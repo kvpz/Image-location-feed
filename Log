@@ -1,0 +1,48 @@
+~~~ Kevin's Work ~~~
+11/22/15
+- Changing UITableViewController to a UIViewController to allow custom
+design (if needed).
+
+11/23/15
+- Created Event class.
+- Swiping to the left leads to camera view. Needs improvement... and swipe
+	right needs to be implemented for another view.
+
+
+
+~~~ API/Protocols used ~~~
+UIViewController
+UITableView, UITableViewDelegate, UITableViewDataSource
+UITableViewCell
+CLLocation
+CLLocationManager
+MKMapView
+MKUserLocation
+
+
+
+~~~ Useful Resources ~~~
+http://stackoverflow.com/questions/32000377/create-uitableview-like-instagram-to-display-name-image-and-text
+http://www.appcoda.com/instagram-app-parse-swift/
+http://www.appcoda.com/ios-programming-camera-iphone-app/
+https://parse.com/docs/ios/guide#geopoints
+
+
+~~~Christopher's Work ~~~
+11/30/15
+-implemented CameraViewController, should allow for capturing images and preparing for upload
+-added gesture recognizer for the controller, linked feed controller and camera controller via gestures
+-added a warning message to the initial view warning when a camera is not detected on the device
+
+12/2
+-hid status bar
+-changed cell appearance
+-working on formatting cells with cleaner appearance
+
+
+~~David's Work ~~'
+11/30
+
+-Implemented Parse backend
+-Implemented FeedTableViewController
+-Cleaned up codebase
